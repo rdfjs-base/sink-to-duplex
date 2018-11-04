@@ -1,0 +1,33 @@
+{
+  "name": "@rdfjs/sink-to-duplex",
+  "version": "0.0.0",
+  "description": "Duplex wrapper for RDFJS Sink",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdfjs/sink-to-duplex.git"
+  },
+  "keywords": [
+    "rdf",
+    "rdfjs",
+    "sink",
+    "duplex"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdfjs/sink-to-duplex/issues"
+  },
+  "homepage": "https://github.com/rdfjs/sink-to-duplex",
+  "dependencies": {
+    "duplexify": "^3.6.1",
+    "readable-stream": "^3.0.6"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6"
+  }
+}
