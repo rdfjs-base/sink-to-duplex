@@ -1,5 +1,5 @@
 const duplexify = require('duplexify')
-const PassThrough = require('readable-stream').PassThrough
+const { PassThrough } = require('readable-stream')
 
 function sinkToDuplex (sink, options = {}) {
   const input = new PassThrough({
