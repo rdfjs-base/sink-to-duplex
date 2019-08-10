@@ -1,6 +1,6 @@
 {
   "name": "@rdfjs/sink-to-duplex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Duplex wrapper for RDFJS Sink",
   "main": "index.js",
   "scripts": {
