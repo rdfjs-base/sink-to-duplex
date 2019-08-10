@@ -4,7 +4,8 @@
   "description": "Duplex wrapper for RDFJS Sink",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha"
+    "pretest": "standard",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,12 @@
     "duplexify": "^3.6.1",
     "readable-stream": "^3.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "get-stream": "^5.1.0",
+    "isstream": "^0.1.2",
+    "jest": "^24.8.0",
+    "standard": "^13.1.0"
+  },
   "engines": {
     "node": ">=6"
   }
